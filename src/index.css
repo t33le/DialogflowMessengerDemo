@@ -1,0 +1,32 @@
+.App {
+  padding: 5px 20px;
+}
+
+.message-list-wrapper .message.bot-message,
+.message-list-wrapper #dfLinkTest {
+  white-space: pre-wrap;
+}
+
+#css-customization-container {
+  max-height: 40vh;
+  max-width: 30vw;
+  overflow: auto;
+  border: 0.5px solid gainsboro;
+}
+#css-customization-values {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  overflow: auto;
+}
+
+#css-customization-values .css-customization-value {
+  margin-left: 5px;
+}
+
+#df-event-listener-output {
+  min-height: 60vh;
+  max-height: 60vh;
+  overflow: auto;
+  border: 0.5px solid gainsboro;
+}
